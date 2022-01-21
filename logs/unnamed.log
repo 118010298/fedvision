@@ -1,0 +1,282 @@
+[ProcessExecutor]2021-04-14 05:50:18.857 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_server --startup-program=startup_program --main-program=main_program >stdout 2>stderr & at .
+[TrainerSchedulerAgent]2021-04-14 05:50:19.938 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 05:50:19.941 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 05:50:19.941 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 05:50:19.944 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 05:50:19.997 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[ProcessExecutor]2021-04-14 08:29:47.160 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_server --startup-program=startup_program --main-program=main_program >stdout 2>stderr & at .
+[TrainerSchedulerAgent]2021-04-14 08:29:48.199 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 08:29:48.202 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 08:29:48.202 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 08:29:48.205 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 08:29:48.258 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:29:48.454 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 08:29:48.456 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 08:29:48.456 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 08:29:48.458 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 08:29:48.458 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:29:48.518 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:29:48.520 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[ProcessExecutor]2021-04-14 08:33:34.348 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_server --startup-program=startup_program --main-program=main_program >stdout 2>stderr & at .
+[TrainerSchedulerAgent]2021-04-14 08:33:35.774 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 08:33:35.777 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 08:33:35.777 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 08:33:35.779 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 08:33:35.882 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 08:33:35.885 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 08:33:35.886 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 08:33:35.888 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 08:33:36.395 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:33:36.396 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:33:36.548 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:33:36.550 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:34:31.370 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:34:31.371 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:34:31.414 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:34:31.417 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:34:34.277 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:34:34.280 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:34:34.569 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:34:34.572 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:35:10.816 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:35:10.817 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:35:11.081 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:35:11.083 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:35:13.542 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:35:13.544 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:35:13.805 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:35:13.807 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:35:50.505 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:35:50.508 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:35:50.628 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:35:50.630 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:35:53.148 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:35:53.149 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:35:53.239 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:35:53.241 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:36:31.335 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:36:31.355 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:36:31.676 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:36:31.679 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:36:33.939 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:36:33.941 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:36:34.307 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:36:34.309 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:37:10.642 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:37:10.644 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:37:10.739 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:37:10.741 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:37:13.260 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:37:13.262 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:37:13.360 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:37:13.362 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:37:50.200 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:37:50.202 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:37:50.360 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:37:50.362 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:37:52.868 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:37:52.870 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:37:52.986 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:37:52.988 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:38:29.302 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:38:29.304 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:38:29.528 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:38:29.530 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:38:31.966 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:38:31.968 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:38:32.242 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:38:32.244 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:39:08.279 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:39:08.281 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:39:08.298 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:39:08.301 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:39:10.905 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:39:10.907 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:39:11.028 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:39:11.030 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:39:47.336 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:39:47.338 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:39:47.341 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:39:47.343 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:39:50.074 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:39:50.075 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:39:50.206 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:39:50.211 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:40:27.979 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:40:27.981 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:40:28.191 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:40:28.193 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:40:30.861 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:40:30.863 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:40:30.965 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 08:40:30.967 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 08:41:07.626 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:41:07.627 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 08:41:07.885 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 08:41:07.886 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[ProcessExecutor]2021-04-14 09:24:31.244 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_server --startup-program=startup_program --main-program=main_program >stdout 2>stderr & at .
+[TrainerSchedulerAgent]2021-04-14 09:24:32.708 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 09:24:32.711 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 09:24:32.711 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 09:24:32.712 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 09:24:32.897 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 09:24:32.899 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 09:24:32.899 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 09:24:32.901 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 09:24:33.432 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 09:24:33.587 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[ProcessExecutor]2021-04-14 09:35:26.121 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_server --startup-program=startup_program --main-program=main_program >stdout 2>stderr & at .
+[TrainerSchedulerAgent]2021-04-14 09:35:27.771 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 09:35:27.773 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 09:35:27.773 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 09:35:27.775 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 09:35:27.776 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 09:35:27.778 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 09:35:27.807 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 09:35:27.810 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 09:35:27.811 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 09:35:27.813 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 09:35:28.448 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 09:35:28.450 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 09:35:28.553 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[ProcessExecutor]2021-04-14 17:05:07.502 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_server --startup-program=startup_program --main-program=main_program >stdout 2>stderr & at .
+[TrainerSchedulerAgent]2021-04-14 17:05:08.973 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 17:05:08.976 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 17:05:08.976 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 17:05:08.978 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 17:05:09.094 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:38:waiting channel ready
+[TrainerSchedulerAgent]2021-04-14 17:05:09.097 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:start_channel:41:channel ready
+[TrainerSchedulerAgent]2021-04-14 17:05:09.097 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:45:start to init
+[TrainerSchedulerAgent]2021-04-14 17:05:09.099 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:init_worker:47:init success
+[TrainerSchedulerAgent]2021-04-14 17:05:09.616 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:05:09.617 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:05:09.780 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:05:09.782 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:05:54.490 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:05:54.491 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:05:54.532 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:05:54.534 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:05:57.449 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:05:57.451 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:05:57.476 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:05:57.478 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:06:34.771 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:06:34.772 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:06:34.850 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:06:34.852 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:06:37.369 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:06:37.370 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:06:37.440 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:06:37.441 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:07:14.985 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:07:14.986 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:07:15.064 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:07:15.066 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:07:17.515 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:07:17.517 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:07:17.579 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:07:17.581 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:07:56.870 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:07:56.871 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:07:56.875 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:07:56.876 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:07:59.372 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:07:59.373 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:07:59.501 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:07:59.503 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:08:35.981 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:08:35.983 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:08:36.189 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:08:36.191 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:08:38.550 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:08:38.552 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:08:38.802 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:08:38.804 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:09:16.122 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:09:16.123 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:09:16.183 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:09:16.184 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:09:18.783 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:09:18.785 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:09:18.834 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:09:18.836 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:09:56.193 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:09:56.195 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:09:56.221 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:09:56.223 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:09:58.936 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:09:58.938 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:09:58.977 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:09:58.979 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:10:36.334 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:10:36.336 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:10:36.431 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:10:36.433 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:10:38.948 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:10:38.950 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:10:39.157 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:10:39.159 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:11:15.768 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:11:15.770 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:11:15.842 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:11:15.844 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:11:18.356 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:11:18.358 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:11:18.501 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:11:18.503 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:11:54.800 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:11:54.801 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:11:54.840 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:11:54.842 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:11:57.448 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:11:57.450 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:11:57.451 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:50:start to join
+[TrainerSchedulerAgent]2021-04-14 17:11:57.452 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:join:54:join success: 2
+[TrainerSchedulerAgent]2021-04-14 17:12:33.656 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:12:33.657 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+
+[TrainerSchedulerAgent]2021-04-14 17:12:33.697 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:58:start to finish
+[TrainerSchedulerAgent]2021-04-14 17:12:33.699 | DEBUG    | fedvision.paddle_fl.tasks.utils._trainer:finish:62:finish success: status: DONE
+

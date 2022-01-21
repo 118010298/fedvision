@@ -1,0 +1,10 @@
+job_type: paddle_fl
+job_config:
+  program: paddle_detection
+  proposal_wait_time: 5 #最大等待用户相应时间，可在UI中加一个这个端口
+  worker_num: 2 #调用多少个用户参与训练，可在UI中加一个这个窗口
+  max_iter: 10 #对应UI中迭代轮数（epoch）参数设置值
+  inner_step: 1
+  device: gpu #对应UI中是否使用gpu参数，若为true则为gpu，false则为cpu
+  use_vdl: true #默认为true
+algorithm_config: ./yolov4_cspdarknet_voc.yml #./生成的yaml文件文件名

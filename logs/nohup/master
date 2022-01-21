@@ -1,0 +1,232 @@
+master started
+master started
+master started
+master started
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122362860","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122362860","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122456811","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122456811","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122465712","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122465712","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122431019","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618378993.122431019","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+master started
+master started
+master started
+master started
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913809368","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913809368","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913810337","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913810337","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913792841","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913792841","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913884482","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392127.913884482","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+master started
+master started
+master started
+master started
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745627611","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745627611","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745552529","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745552529","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745555690","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745555690","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+Task exception was never retrieved
+future: <Task finished coro=<CoordinatorConnect.subscribe() done, defined at /home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py:105> exception=<AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745597327","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>>
+Traceback (most recent call last):
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 112, in subscribe
+    async for response in self._stub.Subscribe(request):
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 321, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/grpc/aio/_call.py", line 232, in _raise_for_status
+    self._cython_call.status())
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "{"created":"@1618392777.745597327","description":"Error received from peer ipv4:127.0.0.1:16000","file":"src/core/lib/surface/call.cc","file_line":1067,"grpc_message":"Socket closed","grpc_status":14}"
+>
+master started
+master started
+master started
+master started

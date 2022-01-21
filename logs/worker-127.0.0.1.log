@@ -1,0 +1,307 @@
+[ClusterWorker]2021-04-14 05:44:06.172 | INFO     | fedvision.framework.cluster.worker:start:88:starting worker worker1
+[ClusterWorker]2021-04-14 05:44:06.172 | INFO     | fedvision.framework.cluster.worker:start:90:staring grpc channel to cluster manager
+[ClusterWorker]2021-04-14 05:44:06.173 | INFO     | fedvision.framework.cluster.worker:start:100:sending enroll request to cluster manager
+[ClusterWorker]2021-04-14 05:44:06.176 | INFO     | fedvision.framework.cluster.worker:start:126:worker<worker1>success enrolled to cluster manager
+[ClusterWorker]2021-04-14 05:44:06.176 | INFO     | fedvision.framework.cluster.worker:start:159:starting heartbeat loop
+[ClusterWorker]2021-04-14 05:44:06.176 | INFO     | fedvision.framework.cluster.worker:start:163:heartbeat loop started
+[ClusterWorker]2021-04-14 05:44:06.176 | INFO     | fedvision.framework.cluster.worker:start:165:starting task execute loop
+[ClusterWorker]2021-04-14 05:44:06.176 | INFO     | fedvision.framework.cluster.worker:start:169:task execute loop started
+[ClusterWorker]2021-04-14 05:50:18.737 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414055012-1, task_id=aggregator, task_type=fl_aggregator
+[ProcessExecutor]2021-04-14 05:50:18.738 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_scheduler --scheduler-ep=127.0.0.1:18001 --startup-program=startup_program --main-program=main_program --config=config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414055012-1/aggregator
+[ClusterWorker]2021-04-14 05:50:18.743 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414055012-1, task_id=trainer_1, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 05:50:18.744 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_mnist.fl_trainer --scheduler-ep=127.0.0.1:18001 --trainer-id=1 --trainer-ep=trainer_1 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414055012-1/trainer_1
+[ClusterWorker]2021-04-14 08:29:47.023 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414082940-4, task_id=aggregator, task_type=fl_aggregator
+[ProcessExecutor]2021-04-14 08:29:47.024 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_scheduler --scheduler-ep=127.0.0.1:18007 --startup-program=startup_program --main-program=main_program --config=config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414082940-4/aggregator
+[ClusterWorker]2021-04-14 08:29:47.033 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414082940-4, task_id=trainer_0, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 08:29:47.035 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_mnist.fl_trainer --scheduler-ep=127.0.0.1:18007 --trainer-id=0 --trainer-ep=trainer_0 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414082940-4/trainer_0
+[ClusterWorker]2021-04-14 08:29:47.041 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414082940-4, task_id=trainer_1, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 08:29:47.044 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_mnist.fl_trainer --scheduler-ep=127.0.0.1:18007 --trainer-id=1 --trainer-ep=trainer_1 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414082940-4/trainer_1
+[ClusterWorker]2021-04-14 08:29:48.699 | ERROR    | fedvision.framework.cluster.worker:_task_exec_coroutine:255:execute task: trainer_0 failed, return code: 1
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.cluster_worker', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fb...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7fb51154e150, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/clus...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/cluster_worker.py", line 76, in <module>
+    start_worker()
+    └ <Command start-worker>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7fb510238830>
+           └ <Command start-worker>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7fb51173a2d0>
+         │    └ <function Command.invoke at 0x7fb510239200>
+         └ <Command start-worker>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'name': 'worker1', 'worker_ip': '127.0.0.1', 'port_start': 18000, 'port_end': 18099, 'max_tasks': 10, 'manager_address': '12...
+           │   │      │    │           └ <click.core.Context object at 0x7fb51173a2d0>
+           │   │      │    └ <function start_worker at 0x7fb510240440>
+           │   │      └ <Command start-worker>
+           │   └ <function Context.invoke at 0x7fb510238320>
+           └ <click.core.Context object at 0x7fb51173a2d0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'name': 'worker1', 'worker_ip': '127.0.0.1', 'port_start': 18000, 'port_end': 18099, 'max_tasks': 10, 'manager_address': '12...
+           │         └ ()
+           └ <function start_worker at 0x7fb510240440>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/cluster_worker.py", line 63, in start_worker
+    loop.run_until_complete(worker.start())
+    │    │                  │      └ <function ClusterWorker.start at 0x7fb50cb959e0>
+    │    │                  └ <fedvision.framework.cluster.worker.ClusterWorker object at 0x7fb50e072a50>
+    │    └ <function BaseEventLoop.run_until_complete at 0x7fb51033b440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 566, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7fb51033b3b0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7fb51033ce60>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7fb5107925f0>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb58f90>(<Future finished result=1>)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb58f90>(<Future finished result=1>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb58f90>(<Future finished result=1>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb58f90>(<Future finished result=1>)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cluster/worker.py", line 234, in _task_exec_coroutine
+    response = await _task.exec(executor)
+                     │     │    └ <fedvision.framework.cluster.executor.ProcessExecutor object at 0x7fb50cb58a10>
+                     │     └ <function FLTrainer.exec at 0x7fb50cb497a0>
+                     └ <fedvision.paddle_fl.tasks.task.trainer.FLTrainer object at 0x7fb50cb58f10>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/paddle_fl/tasks/task/trainer.py", line 133, in exec
+    f"execute task: {self.task_id} failed, return code: {returncode}"
+
+fedvision.framework.utils.exception.FedvisionWorkerException: execute task: trainer_0 failed, return code: 1
+[ClusterWorker]2021-04-14 08:29:48.718 | ERROR    | fedvision.framework.cluster.worker:_task_exec_coroutine:255:execute task: trainer_1 failed, return code: 1
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.cluster_worker', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fb...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7fb51154e150, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/clus...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/cluster_worker.py", line 76, in <module>
+    start_worker()
+    └ <Command start-worker>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7fb510238830>
+           └ <Command start-worker>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7fb51173a2d0>
+         │    └ <function Command.invoke at 0x7fb510239200>
+         └ <Command start-worker>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'name': 'worker1', 'worker_ip': '127.0.0.1', 'port_start': 18000, 'port_end': 18099, 'max_tasks': 10, 'manager_address': '12...
+           │   │      │    │           └ <click.core.Context object at 0x7fb51173a2d0>
+           │   │      │    └ <function start_worker at 0x7fb510240440>
+           │   │      └ <Command start-worker>
+           │   └ <function Context.invoke at 0x7fb510238320>
+           └ <click.core.Context object at 0x7fb51173a2d0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'name': 'worker1', 'worker_ip': '127.0.0.1', 'port_start': 18000, 'port_end': 18099, 'max_tasks': 10, 'manager_address': '12...
+           │         └ ()
+           └ <function start_worker at 0x7fb510240440>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/cluster_worker.py", line 63, in start_worker
+    loop.run_until_complete(worker.start())
+    │    │                  │      └ <function ClusterWorker.start at 0x7fb50cb959e0>
+    │    │                  └ <fedvision.framework.cluster.worker.ClusterWorker object at 0x7fb50e072a50>
+    │    └ <function BaseEventLoop.run_until_complete at 0x7fb51033b440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 566, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7fb51033b3b0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7fb51033ce60>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7fb5107925f0>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb5b4d0>(<Future finished result=1>)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb5b4d0>(<Future finished result=1>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb5b4d0>(<Future finished result=1>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7fb50cb5b4d0>(<Future finished result=1>)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cluster/worker.py", line 234, in _task_exec_coroutine
+    response = await _task.exec(executor)
+                     │     │    └ <fedvision.framework.cluster.executor.ProcessExecutor object at 0x7fb50cb5b610>
+                     │     └ <function FLTrainer.exec at 0x7fb50cb497a0>
+                     └ <fedvision.paddle_fl.tasks.task.trainer.FLTrainer object at 0x7fb50cb5b8d0>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/paddle_fl/tasks/task/trainer.py", line 133, in exec
+    f"execute task: {self.task_id} failed, return code: {returncode}"
+
+fedvision.framework.utils.exception.FedvisionWorkerException: execute task: trainer_1 failed, return code: 1
+[ClusterWorker]2021-04-14 08:33:34.205 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414083304-5, task_id=aggregator, task_type=fl_aggregator
+[ProcessExecutor]2021-04-14 08:33:34.208 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_scheduler --scheduler-ep=127.0.0.1:18009 --startup-program=startup_program --main-program=main_program --config=config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414083304-5/aggregator
+[ClusterWorker]2021-04-14 08:33:34.271 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414083304-5, task_id=trainer_0, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 08:33:34.276 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18009 --trainer-id=0 --trainer-ep=trainer_0 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414083304-5/trainer_0
+[ClusterWorker]2021-04-14 08:33:34.295 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414083304-5, task_id=trainer_1, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 08:33:34.300 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18009 --trainer-id=1 --trainer-ep=trainer_1 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414083304-5/trainer_1
+[ClusterWorker]2021-04-14 08:41:10.130 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:236:finish exec task, job_id=master1-20210414083304-5, task_id=aggregator
+[ClusterWorker]2021-04-14 08:41:10.131 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:250:task status success updated to 3. job_id=master1-20210414083304-5, task_id=aggregator
+[ClusterWorker]2021-04-14 08:41:10.563 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:236:finish exec task, job_id=master1-20210414083304-5, task_id=trainer_0
+[ClusterWorker]2021-04-14 08:41:10.564 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:250:task status success updated to 3. job_id=master1-20210414083304-5, task_id=trainer_0
+[ClusterWorker]2021-04-14 08:41:10.573 | ERROR    | fedvision.framework.cluster.worker:_co_update_status:156:update status failed, please check manager status
+[ClusterWorker]2021-04-14 08:41:10.911 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:236:finish exec task, job_id=master1-20210414083304-5, task_id=trainer_1
+[ClusterWorker]2021-04-14 08:41:10.912 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:250:task status success updated to 3. job_id=master1-20210414083304-5, task_id=trainer_1
+[ClusterWorker]2021-04-14 08:41:10.913 | ERROR    | fedvision.framework.cluster.worker:_co_update_status:156:update status failed, please check manager status
+[ClusterWorker]2021-04-14 09:22:26.399 | INFO     | fedvision.framework.cluster.worker:start:88:starting worker worker1
+[ClusterWorker]2021-04-14 09:22:26.399 | INFO     | fedvision.framework.cluster.worker:start:90:staring grpc channel to cluster manager
+[ClusterWorker]2021-04-14 09:22:26.401 | INFO     | fedvision.framework.cluster.worker:start:100:sending enroll request to cluster manager
+[ClusterWorker]2021-04-14 09:22:26.404 | INFO     | fedvision.framework.cluster.worker:start:126:worker<worker1>success enrolled to cluster manager
+[ClusterWorker]2021-04-14 09:22:26.404 | INFO     | fedvision.framework.cluster.worker:start:159:starting heartbeat loop
+[ClusterWorker]2021-04-14 09:22:26.404 | INFO     | fedvision.framework.cluster.worker:start:163:heartbeat loop started
+[ClusterWorker]2021-04-14 09:22:26.404 | INFO     | fedvision.framework.cluster.worker:start:165:starting task execute loop
+[ClusterWorker]2021-04-14 09:22:26.404 | INFO     | fedvision.framework.cluster.worker:start:169:task execute loop started
+[ClusterWorker]2021-04-14 09:24:31.121 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master2-20210414092400-1, task_id=aggregator, task_type=fl_aggregator
+[ProcessExecutor]2021-04-14 09:24:31.123 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_scheduler --scheduler-ep=127.0.0.1:18001 --startup-program=startup_program --main-program=main_program --config=config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master2-20210414092400-1/aggregator
+[ClusterWorker]2021-04-14 09:24:31.167 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master2-20210414092400-1, task_id=trainer_1, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 09:24:31.172 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18001 --trainer-id=1 --trainer-ep=trainer_1 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master2-20210414092400-1/trainer_1
+[ClusterWorker]2021-04-14 09:24:31.193 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master2-20210414092400-1, task_id=trainer_0, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 09:24:31.198 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18001 --trainer-id=0 --trainer-ep=trainer_0 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master2-20210414092400-1/trainer_0
+[ClusterWorker]2021-04-14 09:33:12.788 | INFO     | fedvision.framework.cluster.worker:start:88:starting worker worker1
+[ClusterWorker]2021-04-14 09:33:12.789 | INFO     | fedvision.framework.cluster.worker:start:90:staring grpc channel to cluster manager
+[ClusterWorker]2021-04-14 09:33:12.790 | INFO     | fedvision.framework.cluster.worker:start:100:sending enroll request to cluster manager
+[ClusterWorker]2021-04-14 09:33:12.793 | INFO     | fedvision.framework.cluster.worker:start:126:worker<worker1>success enrolled to cluster manager
+[ClusterWorker]2021-04-14 09:33:12.793 | INFO     | fedvision.framework.cluster.worker:start:159:starting heartbeat loop
+[ClusterWorker]2021-04-14 09:33:12.793 | INFO     | fedvision.framework.cluster.worker:start:163:heartbeat loop started
+[ClusterWorker]2021-04-14 09:33:12.793 | INFO     | fedvision.framework.cluster.worker:start:165:starting task execute loop
+[ClusterWorker]2021-04-14 09:33:12.793 | INFO     | fedvision.framework.cluster.worker:start:169:task execute loop started
+[ClusterWorker]2021-04-14 09:35:25.977 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414093454-1, task_id=aggregator, task_type=fl_aggregator
+[ProcessExecutor]2021-04-14 09:35:25.978 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_scheduler --scheduler-ep=127.0.0.1:18001 --startup-program=startup_program --main-program=main_program --config=config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414093454-1/aggregator
+[ClusterWorker]2021-04-14 09:35:26.043 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414093454-1, task_id=trainer_0, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 09:35:26.048 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18001 --trainer-id=0 --trainer-ep=trainer_0 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414093454-1/trainer_0
+[ClusterWorker]2021-04-14 09:35:26.069 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master1-20210414093454-1, task_id=trainer_1, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 09:35:26.074 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18001 --trainer-id=1 --trainer-ep=trainer_1 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414093454-1/trainer_1
+[ClusterWorker]2021-04-14 09:39:02.424 | ERROR    | fedvision.framework.cluster.worker:_task_exec_coroutine:255:execute task: trainer_0 failed, return code: 134
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.cluster_worker', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f7...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7f763bfba420, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/clus...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/cluster_worker.py", line 76, in <module>
+    start_worker()
+    └ <Command start-worker>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7f763ace08c0>
+           └ <Command start-worker>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7f763c1a62d0>
+         │    └ <function Command.invoke at 0x7f763ad0d290>
+         └ <Command start-worker>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'name': 'worker1', 'worker_ip': '127.0.0.1', 'port_start': 18000, 'port_end': 18099, 'max_tasks': 10, 'manager_address': '12...
+           │   │      │    │           └ <click.core.Context object at 0x7f763c1a62d0>
+           │   │      │    └ <function start_worker at 0x7f763ad124d0>
+           │   │      └ <Command start-worker>
+           │   └ <function Context.invoke at 0x7f763ace03b0>
+           └ <click.core.Context object at 0x7f763c1a62d0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'name': 'worker1', 'worker_ip': '127.0.0.1', 'port_start': 18000, 'port_end': 18099, 'max_tasks': 10, 'manager_address': '12...
+           │         └ ()
+           └ <function start_worker at 0x7f763ad124d0>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/cluster_worker.py", line 63, in start_worker
+    loop.run_until_complete(worker.start())
+    │    │                  │      └ <function ClusterWorker.start at 0x7f76375a93b0>
+    │    │                  └ <fedvision.framework.cluster.worker.ClusterWorker object at 0x7f76375a5c50>
+    │    └ <function BaseEventLoop.run_until_complete at 0x7f763ae0c4d0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 566, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7f763ae0c440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7f763ae0def0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7f763b465680>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7f76375b9ad0>(<Future finished result=134>)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7f76375b9ad0>(<Future finished result=134>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7f76375b9ad0>(<Future finished result=134>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7f76375b9ad0>(<Future finished result=134>)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cluster/worker.py", line 234, in _task_exec_coroutine
+    response = await _task.exec(executor)
+                     │     │    └ <fedvision.framework.cluster.executor.ProcessExecutor object at 0x7f7634d03c90>
+                     │     └ <function FLTrainer.exec at 0x7f7634d125f0>
+                     └ <fedvision.paddle_fl.tasks.task.trainer.FLTrainer object at 0x7f7634d03050>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/paddle_fl/tasks/task/trainer.py", line 133, in exec
+    f"execute task: {self.task_id} failed, return code: {returncode}"
+
+fedvision.framework.utils.exception.FedvisionWorkerException: execute task: trainer_0 failed, return code: 134
+[ClusterWorker]2021-04-14 17:05:07.371 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master3-20210414170437-1, task_id=aggregator, task_type=fl_aggregator
+[ProcessExecutor]2021-04-14 17:05:07.377 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.paddle_fl.tasks.cli.fl_scheduler --scheduler-ep=127.0.0.1:18003 --startup-program=startup_program --main-program=main_program --config=config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master3-20210414170437-1/aggregator
+[ClusterWorker]2021-04-14 17:05:07.445 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master3-20210414170437-1, task_id=trainer_1, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 17:05:07.449 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18003 --trainer-id=1 --trainer-ep=trainer_1 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master3-20210414170437-1/trainer_1
+[ClusterWorker]2021-04-14 17:05:07.468 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:228:start to exec task, job_id=master3-20210414170437-1, task_id=trainer_0, task_type=fl_trainer
+[ProcessExecutor]2021-04-14 17:05:07.473 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_trainer --scheduler-ep=127.0.0.1:18003 --trainer-id=0 --trainer-ep=trainer_0 --startup-program=startup_program --main-program=main_program --send-program=send_program --recv-program=recv_program --feed-names=feed_names --target-names=target_names --feeds=feeds --strategy=strategy --config config.json --algorithm-config algorithm_config.yaml>stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master3-20210414170437-1/trainer_0
+[ClusterWorker]2021-04-14 17:12:35.940 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:236:finish exec task, job_id=master3-20210414170437-1, task_id=aggregator
+[ClusterWorker]2021-04-14 17:12:35.940 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:250:task status success updated to 3. job_id=master3-20210414170437-1, task_id=aggregator
+[ClusterWorker]2021-04-14 17:12:36.605 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:236:finish exec task, job_id=master3-20210414170437-1, task_id=trainer_0
+[ClusterWorker]2021-04-14 17:12:36.605 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:250:task status success updated to 3. job_id=master3-20210414170437-1, task_id=trainer_0
+[ClusterWorker]2021-04-14 17:12:36.607 | ERROR    | fedvision.framework.cluster.worker:_co_update_status:156:update status failed, please check manager status
+[ClusterWorker]2021-04-14 17:12:36.656 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:236:finish exec task, job_id=master3-20210414170437-1, task_id=trainer_1
+[ClusterWorker]2021-04-14 17:12:36.657 | INFO     | fedvision.framework.cluster.worker:_task_exec_coroutine:250:task status success updated to 3. job_id=master3-20210414170437-1, task_id=trainer_1

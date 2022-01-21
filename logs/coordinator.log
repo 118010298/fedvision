@@ -1,0 +1,32 @@
+[Coordinator]2021-04-14 05:42:49.710 | INFO     | fedvision.framework.coordinator.coordinator:start:100:starting grpc server
+[Coordinator]2021-04-14 05:42:49.711 | INFO     | fedvision.framework.coordinator.coordinator:start:110:grpc server started at port 16000
+[Coordinator]2021-04-14 05:44:04.224 | INFO     | fedvision.framework.coordinator.coordinator:start:100:starting grpc server
+[Coordinator]2021-04-14 05:44:04.226 | INFO     | fedvision.framework.coordinator.coordinator:start:110:grpc server started at port 16000
+[Coordinator]2021-04-14 05:50:18.722 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master1'])
+[Coordinator]2021-04-14 05:50:18.723 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master1'])
+[Coordinator]2021-04-14 05:50:18.724 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master1'])
+[Coordinator]2021-04-14 05:50:18.724 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master1'])
+[Coordinator]2021-04-14 08:29:47.018 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master4'])
+[Coordinator]2021-04-14 08:29:47.020 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master4'])
+[Coordinator]2021-04-14 08:29:47.020 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master4'])
+[Coordinator]2021-04-14 08:29:47.020 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master4'])
+[Coordinator]2021-04-14 08:33:34.180 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 08:33:34.181 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 08:33:34.193 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 08:33:34.200 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:22:24.343 | INFO     | fedvision.framework.coordinator.coordinator:start:100:starting grpc server
+[Coordinator]2021-04-14 09:22:24.345 | INFO     | fedvision.framework.coordinator.coordinator:start:110:grpc server started at port 16000
+[Coordinator]2021-04-14 09:24:31.089 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:24:31.090 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:24:31.101 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:24:31.101 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:33:10.703 | INFO     | fedvision.framework.coordinator.coordinator:start:100:starting grpc server
+[Coordinator]2021-04-14 09:33:10.705 | INFO     | fedvision.framework.coordinator.coordinator:start:110:grpc server started at port 16000
+[Coordinator]2021-04-14 09:35:25.947 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:35:25.960 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:35:25.965 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 09:35:25.966 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master3', 'master2'])
+[Coordinator]2021-04-14 17:05:07.345 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master1'])
+[Coordinator]2021-04-14 17:05:07.347 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master1'])
+[Coordinator]2021-04-14 17:05:07.355 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master1'])
+[Coordinator]2021-04-14 17:05:07.361 | INFO     | fedvision.framework.coordinator.coordinator:FetchTask:279:chosen: dict_keys(['master2', 'master1'])

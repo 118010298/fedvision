@@ -1,0 +1,421 @@
+[ClusterManagerConnect]2021-04-14 05:42:52.737 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 05:42:52.738 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 05:42:52.739 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 05:42:52.739 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16002
+[RESTService]2021-04-14 05:42:52.741 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16002
+[CoordinatorConnect]2021-04-14 05:42:52.741 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 05:42:52.741 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 05:42:52.742 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[ClusterManagerConnect]2021-04-14 05:44:07.191 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 05:44:07.192 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 05:44:07.193 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 05:44:07.193 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16002
+[RESTService]2021-04-14 05:44:07.195 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16002
+[CoordinatorConnect]2021-04-14 05:44:07.195 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 05:44:07.196 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 05:44:07.196 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[RESTService]2021-04-14 05:50:12.146 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:05:50:12 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 05:50:12.148 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_mnist.fl_master --ps-endpoint 127.0.0.1:18000 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414055012-1/master
+[Master]2021-04-14 05:50:18.724 | DEBUG    | fedvision.framework.master.master:_co_handler:488:send local task: aggregator with task type: fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 05:50:18.724 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=aggregator task_type=fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 05:50:18.727 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=aggregator task_type=fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 05:50:18.727 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=trainer_1 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 05:50:18.730 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=trainer_1 task_type=fl_trainer to cluster
+[RESTService]2021-04-14 06:03:05.597 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:06:03:05 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 06:03:05.600 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_master --ps-endpoint 127.0.0.1:18002 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414060305-2/master
+[Master]2021-04-14 06:03:06.963 | ERROR    | fedvision.framework.master.master:_co_handler:492:run jobs failed: compile error
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.master', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff4573b2d1...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7ff4573b5420, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/mast...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 58, in <module>
+    start_master()
+    └ <Command start-master>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7ff4560db8c0>
+           └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7ff4572dcad0>
+         │    └ <function Command.invoke at 0x7ff456106290>
+         └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │   │      │    │           └ <click.core.Context object at 0x7ff4572dcad0>
+           │   │      │    └ <function start_master at 0x7ff45610c320>
+           │   │      └ <Command start-master>
+           │   └ <function Context.invoke at 0x7ff4560db3b0>
+           └ <click.core.Context object at 0x7ff4572dcad0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │         └ ()
+           └ <function start_master at 0x7ff45610c320>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 48, in start_master
+    loop.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7ff456206440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ff456207ef0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ff456861680>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400990>(<Future finished result=1>)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400990>(<Future finished result=1>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400990>(<Future finished result=1>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400990>(<Future finished result=1>)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 470, in _co_handler
+    await job.compile()
+          │   └ <function PaddleFLJob.compile at 0x7ff4501a7200>
+          └ <fedvision.paddle_fl.job.PaddleFLJob object at 0x7ff450400dd0>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/paddle_fl/job.py", line 95, in compile
+    raise FedvisionJobCompileException("compile error")
+          └ <class 'fedvision.framework.utils.exception.FedvisionJobCompileException'>
+
+fedvision.framework.utils.exception.FedvisionJobCompileException: compile error
+[RESTService]2021-04-14 06:08:59.477 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:06:08:59 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 06:08:59.479 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_master --ps-endpoint 127.0.0.1:18004 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414060859-3/master
+[Master]2021-04-14 06:08:59.539 | ERROR    | fedvision.framework.master.master:_co_handler:492:run jobs failed: compile error
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.master', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff4573b2d1...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7ff4573b5420, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/mast...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 58, in <module>
+    start_master()
+    └ <Command start-master>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7ff4560db8c0>
+           └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7ff4572dcad0>
+         │    └ <function Command.invoke at 0x7ff456106290>
+         └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │   │      │    │           └ <click.core.Context object at 0x7ff4572dcad0>
+           │   │      │    └ <function start_master at 0x7ff45610c320>
+           │   │      └ <Command start-master>
+           │   └ <function Context.invoke at 0x7ff4560db3b0>
+           └ <click.core.Context object at 0x7ff4572dcad0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │         └ ()
+           └ <function start_master at 0x7ff45610c320>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 48, in start_master
+    loop.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7ff456206440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ff456207ef0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ff456861680>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400ad0>(<Future finished result=1>)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400ad0>(<Future finished result=1>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400ad0>(<Future finished result=1>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff450400ad0>(<Future finished result=1>)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 470, in _co_handler
+    await job.compile()
+          │   └ <function PaddleFLJob.compile at 0x7ff4501a7200>
+          └ <fedvision.paddle_fl.job.PaddleFLJob object at 0x7ff45017dd50>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/paddle_fl/job.py", line 95, in compile
+    raise FedvisionJobCompileException("compile error")
+          └ <class 'fedvision.framework.utils.exception.FedvisionJobCompileException'>
+
+fedvision.framework.utils.exception.FedvisionJobCompileException: compile error
+[RESTService]2021-04-14 08:29:40.478 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:08:29:40 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 08:29:40.482 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_mnist.fl_master --ps-endpoint 127.0.0.1:18006 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414082940-4/master
+[Master]2021-04-14 08:29:47.020 | DEBUG    | fedvision.framework.master.master:_co_handler:488:send local task: aggregator with task type: fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 08:29:47.020 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=aggregator task_type=fl_aggregator to cluster
+[CoordinatorConnect]2021-04-14 08:29:47.025 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master1-20210414082940-4-coo_2 not ready: 4
+[ClusterManagerConnect]2021-04-14 08:29:47.025 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=aggregator task_type=fl_aggregator to cluster
+[RESTService]2021-04-14 08:33:04.826 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:08:33:04 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 08:33:04.829 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_master --ps-endpoint 127.0.0.1:18008 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414083304-5/master
+[Master]2021-04-14 08:33:34.188 | DEBUG    | fedvision.framework.master.master:_co_handler:488:send local task: aggregator with task type: fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 08:33:34.189 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=aggregator task_type=fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 08:33:34.195 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=aggregator task_type=fl_aggregator to cluster
+[CoordinatorConnect]2021-04-14 08:33:34.200 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master1-20210414083304-5-coo_3 not ready: 4
+[RESTService]2021-04-14 08:36:03.408 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:08:36:03 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[Master]2021-04-14 08:36:03.410 | ERROR    | fedvision.framework.master.master:_co_handler:492:run jobs failed: job failed due to no enough resource
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.master', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff4573b2d1...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7ff4573b5420, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/mast...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 58, in <module>
+    start_master()
+    └ <Command start-master>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7ff4560db8c0>
+           └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7ff4572dcad0>
+         │    └ <function Command.invoke at 0x7ff456106290>
+         └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │   │      │    │           └ <click.core.Context object at 0x7ff4572dcad0>
+           │   │      │    └ <function start_master at 0x7ff45610c320>
+           │   │      └ <Command start-master>
+           │   └ <function Context.invoke at 0x7ff4560db3b0>
+           └ <click.core.Context object at 0x7ff4572dcad0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │         └ ()
+           └ <function start_master at 0x7ff45610c320>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 48, in start_master
+    loop.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7ff456206440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ff456207ef0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ff456861680>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff4503ec090>(<Task finishe...atus: FAILED
+      >)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7ff4503ec090>(<Task finishe...atus: FAILED
+    │    │            │    │             >)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7ff4503ec090>(<Task finishe...atus: FAILED
+    │    │              >)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff4503ec090>(<Task finishe...atus: FAILED
+      >)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 465, in _co_handler
+    "job failed due to no enough resource"
+
+Exception: job failed due to no enough resource
+[RESTService]2021-04-14 08:51:14.590 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:08:51:14 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[Master]2021-04-14 08:51:14.591 | ERROR    | fedvision.framework.master.master:_co_handler:492:run jobs failed: job failed due to no enough resource
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.master', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff4573b2d1...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7ff4573b5420, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/mast...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 58, in <module>
+    start_master()
+    └ <Command start-master>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7ff4560db8c0>
+           └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7ff4572dcad0>
+         │    └ <function Command.invoke at 0x7ff456106290>
+         └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │   │      │    │           └ <click.core.Context object at 0x7ff4572dcad0>
+           │   │      │    └ <function start_master at 0x7ff45610c320>
+           │   │      └ <Command start-master>
+           │   └ <function Context.invoke at 0x7ff4560db3b0>
+           └ <click.core.Context object at 0x7ff4572dcad0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │         └ ()
+           └ <function start_master at 0x7ff45610c320>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 48, in start_master
+    loop.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7ff456206440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ff456207ef0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ff456861680>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff450185610>(<Task finishe...atus: FAILED
+      >)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7ff450185610>(<Task finishe...atus: FAILED
+    │    │            │    │             >)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7ff450185610>(<Task finishe...atus: FAILED
+    │    │              >)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff450185610>(<Task finishe...atus: FAILED
+      >)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 465, in _co_handler
+    "job failed due to no enough resource"
+
+Exception: job failed due to no enough resource
+[RESTService]2021-04-14 09:12:56.579 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:09:12:56 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[Master]2021-04-14 09:12:56.581 | ERROR    | fedvision.framework.master.master:_co_handler:492:run jobs failed: job failed due to no enough resource
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='fedvision.framework.cli.master', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff4573b2d1...
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'fedvision.framework.cli', '__loader__': <_frozen_importlib_external...
+         └ <code object <module> at 0x7ff4573b5420, file "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/mast...
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 58, in <module>
+    start_master()
+    └ <Command start-master>
+
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {}
+           │    │     └ ()
+           │    └ <function BaseCommand.main at 0x7ff4560db8c0>
+           └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7ff4572dcad0>
+         │    └ <function Command.invoke at 0x7ff456106290>
+         └ <Command start-master>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │   │      │    │           └ <click.core.Context object at 0x7ff4572dcad0>
+           │   │      │    └ <function start_master at 0x7ff45610c320>
+           │   │      └ <Command start-master>
+           │   └ <function Context.invoke at 0x7ff4560db3b0>
+           └ <click.core.Context object at 0x7ff4572dcad0>
+  File "/home/disk1/wqy/data/projects/fedvision/venv/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'submitter_port': 16002, 'party_id': 'master1', 'cluster_address': '127.0.0.1:16001', 'coordinator_address': '127.0.0.1:16000'}
+           │         └ ()
+           └ <function start_master at 0x7ff45610c320>
+
+  File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/cli/master.py", line 48, in start_master
+    loop.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7ff456206440>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 534, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ff456207ef0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 1771, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ff456861680>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff4501857d0>(<Task finishe...atus: FAILED
+      >)>
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x7ff4501857d0>(<Task finishe...atus: FAILED
+    │    │            │    │             >)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x7ff4501857d0>(<Task finishe...atus: FAILED
+    │    │              >)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x7ff4501857d0>(<Task finishe...atus: FAILED
+      >)>
+
+> File "/home/disk1/wqy/data/projects/fedvision/FedVision/fedvision/framework/master/master.py", line 465, in _co_handler
+    "job failed due to no enough resource"
+
+Exception: job failed due to no enough resource
+[ClusterManagerConnect]2021-04-14 09:22:27.473 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 09:22:27.474 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 09:22:27.475 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 09:22:27.475 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16002
+[RESTService]2021-04-14 09:22:27.477 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16002
+[CoordinatorConnect]2021-04-14 09:22:27.478 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 09:22:27.478 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 09:22:27.478 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[CoordinatorConnect]2021-04-14 09:24:31.091 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master2-20210414092400-1-coo_1 not ready: 4
+[ClusterManagerConnect]2021-04-14 09:33:13.809 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 09:33:13.810 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 09:33:13.811 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 09:33:13.811 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16002
+[RESTService]2021-04-14 09:33:13.813 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16002
+[CoordinatorConnect]2021-04-14 09:33:13.814 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 09:33:13.814 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 09:33:13.814 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[RESTService]2021-04-14 09:34:54.747 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:09:34:54 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 09:34:54.751 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_master --ps-endpoint 127.0.0.1:18000 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master1-20210414093454-1/master
+[Master]2021-04-14 09:35:25.950 | DEBUG    | fedvision.framework.master.master:_co_handler:488:send local task: aggregator with task type: fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 09:35:25.951 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=aggregator task_type=fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 09:35:25.959 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=aggregator task_type=fl_aggregator to cluster
+[CoordinatorConnect]2021-04-14 09:35:25.966 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master1-20210414093454-1-coo_1 not ready: 4
+[ClusterManagerConnect]2021-04-14 17:05:07.376 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=trainer_1 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 17:05:07.401 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=trainer_1 task_type=fl_trainer to cluster

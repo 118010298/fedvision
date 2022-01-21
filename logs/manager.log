@@ -1,0 +1,54 @@
+[ClusterManager]2021-04-14 05:42:50.832 | INFO     | fedvision.framework.cluster.manager:start:236:starting cluster manager at port: 16001
+[ClusterManager]2021-04-14 05:42:50.834 | INFO     | fedvision.framework.cluster.manager:start:246:cluster manager started at port: 16001
+[ClusterManager]2021-04-14 05:44:05.164 | INFO     | fedvision.framework.cluster.manager:start:236:starting cluster manager at port: 16001
+[ClusterManager]2021-04-14 05:44:05.166 | INFO     | fedvision.framework.cluster.manager:start:246:cluster manager started at port: 16001
+[ClusterManager]2021-04-14 05:44:06.175 | DEBUG    | fedvision.framework.cluster.manager:Enroll:121:cluster worker enroll request: worker_id: "worker1" worker_ip: "127.0.0.1" max_tasks: 10 port_start: 18000 port_end: 18099
+[ClusterManager]2021-04-14 05:44:06.175 | DEBUG    | fedvision.framework.cluster.manager:Enroll:133:cluster worker enroll success: worker: worker1
+[ClusterManager]2021-04-14 05:50:18.726 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414055012-1, task_id=aggregator, task_type=fl_aggregator
+[ClusterManager]2021-04-14 05:50:18.727 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(aggregator, fl_aggregator) to worker worker1
+[ClusterManager]2021-04-14 05:50:18.730 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414055012-1, task_id=trainer_1, task_type=fl_trainer
+[ClusterManager]2021-04-14 05:50:18.730 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_1, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 08:29:47.021 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414082940-4, task_id=aggregator, task_type=fl_aggregator
+[ClusterManager]2021-04-14 08:29:47.022 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(aggregator, fl_aggregator) to worker worker1
+[ClusterManager]2021-04-14 08:29:47.027 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414082940-4, task_id=trainer_0, task_type=fl_trainer
+[ClusterManager]2021-04-14 08:29:47.028 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_0, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 08:29:47.029 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414082940-4, task_id=trainer_1, task_type=fl_trainer
+[ClusterManager]2021-04-14 08:29:47.029 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_1, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 08:29:48.719 | DEBUG    | fedvision.framework.cluster.manager:UpdateTaskStatus:177:update task status: trainer_0 to 2
+[ClusterManager]2021-04-14 08:29:48.723 | DEBUG    | fedvision.framework.cluster.manager:UpdateTaskStatus:177:update task status: trainer_1 to 2
+[ClusterManager]2021-04-14 08:33:34.195 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414083304-5, task_id=aggregator, task_type=fl_aggregator
+[ClusterManager]2021-04-14 08:33:34.195 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(aggregator, fl_aggregator) to worker worker1
+[ClusterManager]2021-04-14 08:33:34.238 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414083304-5, task_id=trainer_0, task_type=fl_trainer
+[ClusterManager]2021-04-14 08:33:34.238 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_0, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 08:33:34.251 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414083304-5, task_id=trainer_1, task_type=fl_trainer
+[ClusterManager]2021-04-14 08:33:34.252 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_1, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 08:41:10.133 | DEBUG    | fedvision.framework.cluster.manager:UpdateTaskStatus:177:update task status: aggregator to 3
+[ClusterManager]2021-04-14 09:22:25.304 | INFO     | fedvision.framework.cluster.manager:start:236:starting cluster manager at port: 16001
+[ClusterManager]2021-04-14 09:22:25.306 | INFO     | fedvision.framework.cluster.manager:start:246:cluster manager started at port: 16001
+[ClusterManager]2021-04-14 09:22:26.403 | DEBUG    | fedvision.framework.cluster.manager:Enroll:121:cluster worker enroll request: worker_id: "worker1" worker_ip: "127.0.0.1" max_tasks: 10 port_start: 18000 port_end: 18099
+[ClusterManager]2021-04-14 09:22:26.403 | DEBUG    | fedvision.framework.cluster.manager:Enroll:133:cluster worker enroll success: worker: worker1
+[ClusterManager]2021-04-14 09:24:31.100 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master2-20210414092400-1, task_id=aggregator, task_type=fl_aggregator
+[ClusterManager]2021-04-14 09:24:31.101 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(aggregator, fl_aggregator) to worker worker1
+[ClusterManager]2021-04-14 09:24:31.131 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master2-20210414092400-1, task_id=trainer_1, task_type=fl_trainer
+[ClusterManager]2021-04-14 09:24:31.131 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_1, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 09:24:31.146 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master2-20210414092400-1, task_id=trainer_0, task_type=fl_trainer
+[ClusterManager]2021-04-14 09:24:31.146 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_0, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 09:33:11.742 | INFO     | fedvision.framework.cluster.manager:start:236:starting cluster manager at port: 16001
+[ClusterManager]2021-04-14 09:33:11.745 | INFO     | fedvision.framework.cluster.manager:start:246:cluster manager started at port: 16001
+[ClusterManager]2021-04-14 09:33:12.792 | DEBUG    | fedvision.framework.cluster.manager:Enroll:121:cluster worker enroll request: worker_id: "worker1" worker_ip: "127.0.0.1" max_tasks: 10 port_start: 18000 port_end: 18099
+[ClusterManager]2021-04-14 09:33:12.792 | DEBUG    | fedvision.framework.cluster.manager:Enroll:133:cluster worker enroll success: worker: worker1
+[ClusterManager]2021-04-14 09:35:25.959 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414093454-1, task_id=aggregator, task_type=fl_aggregator
+[ClusterManager]2021-04-14 09:35:25.959 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(aggregator, fl_aggregator) to worker worker1
+[ClusterManager]2021-04-14 09:35:26.009 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414093454-1, task_id=trainer_0, task_type=fl_trainer
+[ClusterManager]2021-04-14 09:35:26.010 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_0, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 09:35:26.023 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master1-20210414093454-1, task_id=trainer_1, task_type=fl_trainer
+[ClusterManager]2021-04-14 09:35:26.023 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_1, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 09:39:02.437 | DEBUG    | fedvision.framework.cluster.manager:UpdateTaskStatus:177:update task status: trainer_0 to 2
+[ClusterManager]2021-04-14 17:05:07.356 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master3-20210414170437-1, task_id=aggregator, task_type=fl_aggregator
+[ClusterManager]2021-04-14 17:05:07.357 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(aggregator, fl_aggregator) to worker worker1
+[ClusterManager]2021-04-14 17:05:07.412 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master3-20210414170437-1, task_id=trainer_1, task_type=fl_trainer
+[ClusterManager]2021-04-14 17:05:07.412 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_1, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 17:05:07.422 | DEBUG    | fedvision.framework.cluster.manager:Enroll:143:task ready: job_id=master3-20210414170437-1, task_id=trainer_0, task_type=fl_trainer
+[ClusterManager]2021-04-14 17:05:07.422 | DEBUG    | fedvision.framework.cluster.manager:Enroll:149:response task(trainer_0, fl_trainer) to worker worker1
+[ClusterManager]2021-04-14 17:12:35.941 | DEBUG    | fedvision.framework.cluster.manager:UpdateTaskStatus:177:update task status: aggregator to 3
+[ClusterManager]2021-04-14 17:12:36.658 | DEBUG    | fedvision.framework.cluster.manager:UpdateTaskStatus:177:update task status: trainer_1 to 3

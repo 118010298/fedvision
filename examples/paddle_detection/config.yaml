@@ -1,0 +1,11 @@
+job_type: paddle_fl
+job_config:
+  program: paddle_detection
+  proposal_wait_time: 5
+  worker_num: 2
+  max_iter: 10
+  inner_step: 1
+  device: gpu
+  use_vdl: true
+  eval: true
+algorithm_config: ./yolov3_mobilenet_v1_fruit.yml

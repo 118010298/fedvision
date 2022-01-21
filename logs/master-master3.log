@@ -1,0 +1,46 @@
+[ClusterManagerConnect]2021-04-14 05:42:55.089 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 05:42:55.090 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 05:42:55.091 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 05:42:55.091 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16004
+[RESTService]2021-04-14 05:42:55.093 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16004
+[CoordinatorConnect]2021-04-14 05:42:55.093 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 05:42:55.093 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 05:42:55.093 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[ClusterManagerConnect]2021-04-14 05:44:09.591 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 05:44:09.592 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 05:44:09.593 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 05:44:09.593 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16004
+[RESTService]2021-04-14 05:44:09.596 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16004
+[CoordinatorConnect]2021-04-14 05:44:09.596 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 05:44:09.596 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 05:44:09.597 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[CoordinatorConnect]2021-04-14 05:50:18.724 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master1-20210414055012-1-coo_1 not ready: 4
+[CoordinatorConnect]2021-04-14 08:29:47.022 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master1-20210414082940-4-coo_2 not ready: 4
+[ClusterManagerConnect]2021-04-14 08:33:34.213 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=trainer_0 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 08:33:34.238 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=trainer_0 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 09:22:29.890 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 09:22:29.892 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 09:22:29.893 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 09:22:29.893 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16004
+[RESTService]2021-04-14 09:22:29.898 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16004
+[CoordinatorConnect]2021-04-14 09:22:29.899 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 09:22:29.899 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 09:22:29.900 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[ClusterManagerConnect]2021-04-14 09:24:31.126 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=trainer_0 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 09:24:31.146 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=trainer_0 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 09:33:16.275 | INFO     | fedvision.framework.master.master:start_cluster_channel:384:start cluster channel to 127.0.0.1:16001
+[ClusterManagerConnect]2021-04-14 09:33:16.278 | INFO     | fedvision.framework.master.master:start_cluster_channel:393:cluster channel started to 127.0.0.1:16001
+[Master]2021-04-14 09:33:16.279 | INFO     | fedvision.framework.master.master:start:516:cluster channel ready!
+[RESTService]2021-04-14 09:33:16.279 | INFO     | fedvision.framework.master.master:start_rest_site:219:starting restful services at ::16004
+[RESTService]2021-04-14 09:33:16.283 | INFO     | fedvision.framework.master.master:start_rest_site:228:restful services started at  ::16004
+[CoordinatorConnect]2021-04-14 09:33:16.283 | INFO     | fedvision.framework.master.master:start_coordinator_channel:164:start coordinator channel to 127.0.0.1:16000
+[CoordinatorConnect]2021-04-14 09:33:16.284 | INFO     | fedvision.framework.master.master:start_coordinator_channel:175:coordinator channel started to 127.0.0.1:16000
+[Master]2021-04-14 09:33:16.285 | INFO     | fedvision.framework.master.master:start:532:coordinator channel ready!
+[ClusterManagerConnect]2021-04-14 09:35:25.982 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=trainer_0 task_type=fl_trainer to cluster
+[ClusterManagerConnect]2021-04-14 09:35:26.009 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=trainer_0 task_type=fl_trainer to cluster
+[RESTService]2021-04-14 17:04:37.749 | INFO     | aiohttp.web_protocol:log_access:386:127.0.0.1 [14/Apr/2021:17:04:37 +0000] "POST /submit HTTP/1.1" 200 201 "-" "Python/3.7 aiohttp/3.7.4.post0"
+[ProcessExecutor]2021-04-14 17:04:37.752 | INFO     | fedvision.framework.cluster.executor:execute:31:execute cmd /home/disk1/wqy/data/projects/fedvision/venv/bin/python -m fedvision.ml.paddle.paddle_detection.fl_master --ps-endpoint 127.0.0.1:18002 --algorithm-config algorithm_config.yaml --config config.json >stdout 2>stderr at /home/disk1/wqy/data/projects/fedvision/FedVision/logs/jobs/master3-20210414170437-1/master
+[Master]2021-04-14 17:05:07.350 | DEBUG    | fedvision.framework.master.master:_co_handler:488:send local task: aggregator with task type: fl_aggregator to cluster
+[ClusterManagerConnect]2021-04-14 17:05:07.351 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:359:task sending: task_id=aggregator task_type=fl_aggregator to cluster
+[CoordinatorConnect]2021-04-14 17:05:07.352 | DEBUG    | fedvision.framework.master.master:_acceptor:128:proposal master3-20210414170437-1-coo_2 not ready: 4
+[ClusterManagerConnect]2021-04-14 17:05:07.356 | DEBUG    | fedvision.framework.master.master:submit_tasks_to_cluster:363:task sent: task_id=aggregator task_type=fl_aggregator to cluster
